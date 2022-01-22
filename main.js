@@ -2,8 +2,9 @@ const app = Vue.createApp({
   data() {
     return {
       product: "Socks",
-      image: "./assets/images/socks_green.jpg",
-      url: "https://tonichi-printing.co.jp",
+      image: "./assets/images/socks_blue.jpg",
+      inventory: 0,
+      onSale: true,
     };
   },
 });
