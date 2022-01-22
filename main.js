@@ -1,8 +1,9 @@
 const app = Vue.createApp({
   data() {
     return {
-      product: "socks",
-      description: "It's very nice product",
+      product: "Socks",
+      image: "./assets/images/socks_green.jpg",
+      url: "https://tonichi-printing.co.jp",
     };
   },
 });
